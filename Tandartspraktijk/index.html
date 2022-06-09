@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="nl" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Tandartsafspraak</title>
+  </head>
+  <body>
+    <h1>Tandartsafspraak</h1>
+    <p>
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum convallis nisl ac arcu mollis, in placerat lectus egestas. Donec varius risus ac pharetra fermentum. Nulla iaculis, dui fringilla gravida gravida, turpis justo malesuada eros, at lobortis mauris nunc ut ante. Vestibulum a tincidunt est, ut sollicitudin nulla. Aenean tristique blandit massa nec pellentesque. Aliquam vulputate sapien mattis finibus condimentum. Donec sit amet facilisis dolor, vel iaculis quam. Maecenas ligula velit, posuere ut ullamcorper eget, maximus nec risus. Suspendisse venenatis lobortis leo condimentum egestas. Ut eu diam non massa malesuada suscipit. Sed efficitur magna ut dolor tempus, ac lobortis lacus iaculis.
+    </p>
+    <img src="images/toothbrush-3191097_1280.jpg" width="300" alt="Tandenborstels">
+    <img src="images/chair-2584260_1280.jpg" width="300" alt="Tandartsstoel">
+    <img src="images/dentist-2530990_1280.jpg" width="300" alt="Tandarts">
+    <form class="" action="https://formspree.io/f/xnqwbeew" method="POST" enctype="multipart/form-data">
+      <fieldset>
+        <legend><b>Persoonlijke gegevens</b></legend>
+        <label for="naam"><b>Volledige naam:</b></label><br>
+        <input id="naam" type="text" name="naam" value=""><br><br>
+        <label for="email"><b>E-mail:</b></label><br>
+        <input id="email" type="email" name="email" value=""><br><br>
+        <label for="telefoonnummer"><b>Telefoonnummer:</b></label><br>
+        <input id="telefoonnummer" type="tel" name="telefoonnummer" value=""><br><br>
+      </fieldset>
+      <fieldset>
+        <legend><b>Beschrijving van de klachten</b></legend>
+        <label><b>Meeste last van:</b></label><br>
+        <input type="checkbox" name="klachten" value="Kiespijn">Kiespijn<br>
+        <input type="checkbox" name="klachten" value="Ontstoken tandvlees">Ontstoken tandvlees<br>
+        <input type="checkbox" name="klachten" value="Wondjes">Wondjes<br>
+        <input type="checkbox" name="klachten" value="Gele/Bruine Plekken">Gele/Bruine Plekken<br><br>
+        <label for="foto"><b>Foto:</b></label><br>
+        <input id="foto" type="file" name="foto">
+      </fieldset>
+      <fieldset>
+        <legend><b>Toelichting van de klachten</b></legend>
+        <label for="toelichting"><b>Uitgebreide toelichting:</b></label><br>
+        <textarea id="toelichting" name="toelichting" rows="8" cols="80" maxlength="1500"></textarea><br><br>
+        <label for="sinds"><b>Sinds wanneer ervaar je deze klachten:</b></label><br>
+        <input id="sinds" type="date" name="sinds" value="">
+      </fieldset>
+      <br>
+      <button type="submit" name="button">Verzend</button>
+    </form>
+  </body>
+</html>
